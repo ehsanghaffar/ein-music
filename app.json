@@ -1,0 +1,7 @@
+{
+  "name": "Vip Music",
+  "description": "🤖 Vip Music is a powerful and easy-to-use music bot with many useful features, written in Typescript and powered by Discord.js. It's a perfect fit for beginners who want to learn and experiment with Discord's powerful features. With its easy-to-use interface and powerful features. ",
+  "repository": "https://github.com/ehsanghaffar/vip-music",
+  "logo": "https://i.imgur.com/JFxgbWHd.png",
+  "keywords": ["discord", "discordjs", "typescript", "music", "bot", "vip"]
+}
