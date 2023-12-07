@@ -64,8 +64,6 @@ Vip Music offers a variety of commands to enhance your Discord music experience,
 - **Command Handler from [discordjs.guide](https://discordjs.guide/)**
 - **Media Controls via Reactions**
 
-![reactions](https://i.imgur.com/0hdUX1C.png)
-
 ## 🌎 Locales
 
 Vip Music supports multiple languages, with the following locales available:
