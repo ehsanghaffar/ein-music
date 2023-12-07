@@ -3,11 +3,14 @@ import { i18n } from "../utils/i18n";
 import { bot } from "../index";
 
 export default {
-  data: new SlashCommandBuilder().setName("help").setDescription(i18n.__("help.description")),
+  data: new SlashCommandBuilder()
+    .setName("help")
+    .setDescription(i18n.__("help.description")),
+  
   async execute(interaction: CommandInteraction) {
-    let commands = bot.slashCommandsMap;
+    const commands = bot.slashCommandsMap;
 
-    let helpEmbed = new EmbedBuilder()
+    const helpEmbed = new EmbedBuilder()
       .setTitle(i18n.__mf("help.embedTitle", { botname: interaction.client.user!.username }))
       .setDescription(i18n.__("help.embedDescription"))
       .setColor("#F8AA2A");
@@ -16,12 +19,16 @@ export default {
       helpEmbed.addFields({
         name: `**${cmd.data.name}**`,
         value: `${cmd.data.description}`,
-        inline: true
+        inline: true,
       });
     });
 
     helpEmbed.setTimestamp();
 
-    return interaction.reply({ embeds: [helpEmbed] }).catch(console.error);
-  }
+    try {
+      await interaction.reply({ embeds: [helpEmbed] });
+    } catch (error) {
+      console.error(error);
+    }
+  },
 };
