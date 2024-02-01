@@ -1,8 +1,8 @@
 ![logo](icon.png)
 
-# 🤖 Vip Music (Discord Music Bot)
+# 🤖 Ein Music (Discord Music Bot)
 
-Welcome to Vip Music, a feature-rich Discord Music Bot developed using TypeScript and discord.js, utilizing the Command Handler from [discordjs.guide](https://discordjs.guide).
+Welcome to Ein Music, a feature-rich Discord Music Bot developed using TypeScript and discord.js, utilizing the Command Handler from [discordjs.guide](https://discordjs.guide).
 
 ## Requirements
 
@@ -14,8 +14,8 @@ Welcome to Vip Music, a feature-rich Discord Music Bot developed using TypeScrip
 Clone the repository, navigate to the project directory, and install dependencies by running:
 
 ```sh
-git clone https://github.com/ehsanghaffar/vip-music.git
-cd vip-music
+git clone https://github.com/ehsanghaffar/ein-music.git
+cd ein-music
 npm install
 ```
 
@@ -40,7 +40,7 @@ Copy or rename `config.json.example` to `config.json` and fill in the required v
 
 ## 📝 Features & Commands
 
-Vip Music offers a variety of commands to enhance your Discord music experience, including:
+Ein Music offers a variety of commands to enhance your Discord music experience, including:
 
 - **Play music from YouTube via URL or search query**
 - **Search and select music to play**
@@ -66,7 +66,7 @@ Vip Music offers a variety of commands to enhance your Discord music experience,
 
 ## 🌎 Locales
 
-Vip Music supports multiple languages, with the following locales available:
+Ein Music supports multiple languages, with the following locales available:
 
 - English (en)
 - Arabic (ar)
@@ -80,14 +80,14 @@ Check [Contributing](#-contributing) if you wish to help add more languages! For
 
 ## 🤝 Contributing
 
-We welcome contributions to Vip Music. To contribute, follow these steps:
+We welcome contributions to Ein Music. To contribute, follow these steps:
 
-1. [Fork the repository](https://github.com/ehsanghaffar/vip-music/fork)
-2. Clone your fork: `git clone https://github.com/your-username/vip-music.git`
+1. [Fork the repository](https://github.com/ehsanghaffar/ein-music/fork)
+2. Clone your fork: `git clone https://github.com/your-username/ein-music.git`
 3. Create your feature branch: `git checkout -b my-new-feature`
 4. Stage changes `git add .`
 5. Commit your changes: `cz` OR `npm run commit` (do not use `git commit`)
 6. Push to the branch: `git push origin my-new-feature`
 7. Submit a pull request
 
-Let's make Vip Music even better together! 🎶
+Let's make Ein Music even better together! 🎶
