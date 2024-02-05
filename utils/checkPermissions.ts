@@ -11,6 +11,8 @@ export async function checkPermissions(
   interaction: ChatInputCommandInteraction
 ): Promise<PermissionResult> {
   const member = await interaction.guild!.members.fetch({ user: interaction.client.user!.id });
+  const owner = await interaction.guild!.fetchOwner();
+  console.log("owner", owner)
   const requiredPermissions = command.permissions as PermissionResolvable[];
 
   if (!command.permissions) return { result: true, missing: [] };
