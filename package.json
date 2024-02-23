@@ -43,7 +43,7 @@
     "@types/i18n": "^0.13.6",
     "@types/node": "^20.11.19",
     "cz-conventional-changelog": "^3.0.1",
-    "nodemon": "^3.0.2",
+    "nodemon": "^3.1.0",
     "ts-node": "^10.9.1"
   },
   "optionalDependencies": {
