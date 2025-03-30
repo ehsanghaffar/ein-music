@@ -1,5 +1,3 @@
-![logo](icon.png)
-
 # 🤖 Ein Music (Discord Music Bot)
 
 Welcome to Ein Music, a feature-rich Discord Music Bot developed using TypeScript and discord.js, utilizing the Command Handler from [discordjs.guide](https://discordjs.guide).
