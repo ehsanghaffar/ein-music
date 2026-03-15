@@ -50,7 +50,7 @@
     "@discordjs/opus": "^0.10.0",
     "libsodium-wrappers": "^0.8.2",
     "opusscript": "^0.1.0",
-    "sodium-native": "^5.0.10",
+    "sodium-native": "^5.1.0",
     "tweetnacl": "^1.0.3"
   },
   "config": {
