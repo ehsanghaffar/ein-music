@@ -32,7 +32,7 @@
     "discord.js": "^14.27.0",
     "dotenv": "^17.4.2",
     "ffmpeg-static": "^5.3.0",
-    "i18n": "^0.15.3",
+    "i18n": "^0.15.4",
     "lyrics-finder": "^21.0.5",
     "play-dl": "^1.9.6",
     "soundcloud-downloader": "^0.2.3",
